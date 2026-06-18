@@ -13,7 +13,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 
 
-data = pd.read_csv(r"C:\course\sem 4\ml Project\complete app folder\Music Dataset new.csv")
+data = pd.read_csv(r"Music Dataset new.csv")
 X = data.drop("Instrument", axis=1)
 y = data["Instrument"]
 
